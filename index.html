@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/asset/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .btn {
+            background-color: white;
+            font-size: 20px;
+            border-radius: 5px;
+            color: green;
+            width: 240px;
+            height: 30px;
+            font-weight: 600;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            border: 1px solid green;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            background-color: green;
+            color: white;
+            cursor: pointer;
+        }
+
+        .images {
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        .images img {
+            margin-top: 10px;
+            filter: blur(7px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="buttons">
+        <button class="btn">Hediyyeni Ac</button>
+        <button class="btn">Hediyyeni Ac</button>
+        <button class="btn">Hediyyeni Ac</button>
+        <button class="btn">Hediyyeni Ac</button>
+    </div>
+
+
+    <div class="images">
+        <img width="250" height="150"
+            src="https://www.bmw.az/content/dam/bmw/common/all-models/m-series/m4-coupe/2022/Highlights/bmw-4-series-coupe-m-automobiles-mc-product-highlights-m4-csl-hero-desktop.jpg.asset.1651068753808.jpg"
+            alt="">
+        <img width="250" height="150"
+            src="https://images.expertreviews.co.uk/wp-content/uploads/2023/03/best_phone_camera_2023_uk_smartphones.jpg"
+            alt="">
+        <img width="250" height="150"
+            src="https://smarton.az/storage/products/8429/821f446e37dc5dc09b535a40c6416122.jpg" alt="">
+        <img width="250" height="150"
+            src="https://i0.wp.com/www.titanui.com/wp-content/uploads/2022/08/13/High-Quality-Sport-Bag-PSD-Mockups.webp?ssl=1"
+            alt="">
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+        const btn = document.querySelector(".btn")
+        const img = document.querySelector        ("img")
+        btn.addEventListener("click", function () {
+            img.style.filter = 'blur(0px)'
+
+
+
+        })
+        // btn.addEventListener("click",function () {
+        //     nav.style.display="block"
+        // })
+
+
+
+    </script>
+
+
+</body>
+
+</html>
